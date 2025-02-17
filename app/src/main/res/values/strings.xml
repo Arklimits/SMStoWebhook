@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SmsToWebhook</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="add">추가</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">DISCO</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="msgbox_description">TEST</string>
+
+    <!-- Preference Titles -->
+    <string name="webhook_setting_header">Webhook Settings</string>
+    <string name="msg_setting_header">Message Settings</string>
+
+    <!-- Webhook Preferences -->
+    <string name="url_setting_title">Webhook URL</string>
+    <string name="webhook_setting_on">Webhook URL Registered</string>
+    <string name="webhook_setting_off">Register Your Webhook URL</string>
+
+    <!-- Message Preferences -->
+    <string name="number_add_title">번호 추가</string>
+    <string name="number_remove_title">번호 관리</string>
+</resources>

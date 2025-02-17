@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/webhook_setting_header">
+
+        <EditTextPreference
+            app:key="webhook_url"
+            app:title="@string/url_setting_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/msg_setting_header">
+
+        <MultiSelectListPreference
+            app:key="number"
+            app:title="@string/number_remove_title"
+            android:entries="@array/number_display"
+            android:entryValues="@array/number_actual" />
+
+        <com.disco.smstowebhook.preference.EmptyPreference
+            android:key="number_add"
+            android:title="@string/number_add_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
